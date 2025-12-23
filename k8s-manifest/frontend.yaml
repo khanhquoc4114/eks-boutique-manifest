@@ -31,7 +31,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: 671838581040.dkr.ecr.us-east-1.amazonaws.com/microservices-demo/frontend:494ce3d67e6d481b1eb475a5c5257de71aa736c6
+          image: 671838581040.dkr.ecr.us-east-1.amazonaws.com/microservices-demo/frontend:00bc6376cb4407d9e0442172013f4a9c04208ec6
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 8080
